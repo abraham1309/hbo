@@ -1,0 +1,310 @@
+@font-face {
+    font-family: "Neuland";
+    src: url("../tipografias/NeulandGrotesk-CondensedBold.otf");
+}
+
+@font-face {
+    font-family: "Myriad";
+    src: url("../tipografias/MYRIADPRO-REGULAR.OTF");
+}
+
+
+/* Estilos para la pagina de inicio */
+
+.seccion-general {
+    height: 100vh;
+    width: 100vw;
+}
+
+.seccion-general .div-general {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.seccion-general .div-general .div-arriba {
+    height: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion-general .div-general .div-arriba .img-hbo {
+    margin-top: 1%;
+    width: 180px;
+}
+
+.seccion-general .div-general .div-arriba .img-padre {
+    width: 550px;
+}
+
+.seccion-general .div-general .div-abajo {
+    height: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion-general .div-general .div-abajo button {
+    width: 300px;
+    height: 50px;
+    margin-bottom: 5%;
+    border: none;
+    border-radius: 9px;
+    font-family: 'Neuland';
+    font-size: 38px;
+    color: #fff;
+    background-color: #db0450;
+    cursor: pointer;
+}
+
+.seccion-general .div-general .div-abajo .div-footer {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+.seccion-general .div-general .div-abajo .div-footer p {
+    width: 90%;
+    font-family: 'Myriad';
+    font-size: 17px;
+    text-align: center;
+}
+
+.seccion-general .div-fondo {
+    position: absolute;
+    background: url(../imagenes/El\ padre\ de\ la\ novia-F1-e-m.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 590px) {
+    .seccion-general .div-general .div-arriba .img-hbo {
+        margin-top: 5%;
+        width: 30%;
+    }
+    .seccion-general .div-general .div-arriba .img-padre {
+        width: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    .seccion-general .div-general .div-arriba .img-hbo {
+        margin-top: 25%;
+        width: 30%;
+    }
+    .seccion-general .div-general .div-arriba .img-padre {
+        width: 90%;
+    }
+    .seccion-general .div-general .div-abajo button {
+        width: 250px;
+        margin-bottom: 18%;
+        font-size: 28px;
+    }
+    .seccion-general .div-fondo {
+        background: url(../imagenes/El\ padre\ de\ la\ novia-F1-m-m.png);
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+}
+
+
+/* Estilos para la pagina de video */
+
+.seccion-video {
+    width: 100vw;
+    height: 100vh;
+}
+
+.seccion-video .div-general {
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 1;
+}
+
+.seccion-video .div-general .div-titulo {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.seccion-video .div-general .div-titulo .img-hbo {
+    margin-top: 1%;
+    width: 180px;
+}
+
+.seccion-video .div-general .div-titulo .img-padre {
+    width: 550px;
+}
+
+.seccion-video .div-general .div-general-video {
+    height: 60%;
+    width: 85vw;
+}
+
+.seccion-video .div-general .div-general-video .div-sub-video {
+    height: 60vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.seccion-video .div-general .div-general-video .div-sub-video .div-iframe {
+    width: 95%;
+    height: 100%;
+}
+
+.seccion-video .div-general .div-general-video .div-sub-video iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.seccion-video .div-general .div-general-video .div-general-comentarios {
+    height: 60vh;
+}
+
+.seccion-video .div-general .div-general-video .div-general-comentarios .div-comentarios {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.seccion-video .div-general .div-general-footer {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.seccion-video .div-general .div-general-footer .div-footer {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.30);
+}
+
+.seccion-video .div-general .div-general-footer .div-footer p {
+    width: 90%;
+    font-family: 'Myriad';
+    font-size: 17px;
+    text-align: center;
+    margin-top: 1%;
+}
+
+.seccion-video .div-fondo {
+    position: absolute;
+    background: url(../imagenes/El\ padre\ de\ la\ novia-F2-e-m.png);
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 900px) {
+    .seccion-video .div-general .div-general-video {
+        width: 95vw;
+    }
+    .seccion-video .div-general .div-general-video .div-sub-video {
+        height: 50vh;
+    }
+    .seccion-video .div-general .div-general-video .div-general-comentarios {
+        height: 50vh;
+    }
+}
+
+@media (max-width: 767px) {
+    .seccion-video .div-general .div-titulo {
+        height: 20%;
+    }
+    .seccion-video .div-general .div-titulo .img-hbo {
+        margin-top: 1%;
+        width: 150px;
+    }
+    .seccion-video .div-general .div-titulo .img-padre {
+        width: 400px;
+    }
+    .seccion-video .div-general .div-general-video {
+        height: 70%;
+        width: 60%;
+    }
+    .seccion-video .div-general .div-general-video .div-sub-video {
+        height: 35vh;
+        justify-content: center;
+    }
+    .seccion-video .div-general .div-general-video .div-sub-video .div-iframe {
+        width: 100%;
+    }
+    .seccion-video .div-general .div-general-video .div-general-comentarios {
+        height: 35vh;
+    }
+}
+
+@media (max-width: 600px) {
+    .seccion-video .div-general .div-general-video {
+        width: 80%;
+    }
+}
+
+@media (max-width: 450px) {
+    .seccion-video .div-general .div-titulo {
+        justify-content: flex-end;
+    }
+    .seccion-video .div-general .div-titulo .img-hbo {
+        margin-top: 1%;
+        width: 30%;
+    }
+    .seccion-video .div-general .div-titulo .img-padre {
+        width: 70%;
+    }
+    .seccion-video .div-general .div-general-video {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .seccion-video .div-fondo {
+        background: url(../imagenes/El\ padre\ de\ la\ novia-F2-m-m.png);
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
+    .seccion-video .div-general .div-general-video .div-sub-video {
+        height: 30vh;
+    }
+    .seccion-video .div-general .div-general-video .div-general-comentarios {
+        height: 30vh;
+    }
+    .seccion-video .div-general .div-general-video .div-general-comentarios .div-comentarios {
+        margin-top: 5%;
+    }
+}
