@@ -36,13 +36,12 @@
 }
 
 .seccion-general .div-general .div-arriba .img-hbo {
-    margin-top: 3%;
+    margin-top: 1%;
     width: 180px;
 }
 
 .seccion-general .div-general .div-arriba .img-padre {
-    width: 325px;
-    margin-top: 12%;
+    width: 450px;
 }
 
 .seccion-general .div-general .div-abajo {
@@ -85,12 +84,13 @@
 
 .seccion-general .div-fondo {
     position: absolute;
-    background: url(../imagenes/El\ padre\ de\ la\ novia-F1-e-m.png);
+    background: url(../imagenes/El\ padre\ de\ la\ novia-F1.2-e-m.png);
     height: 100vh;
     width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
+    padding-top: 1%;
 }
 
 @media (max-width: 590px) {
@@ -124,6 +124,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+        padding-top: 0;
     }
 }
 
@@ -360,16 +361,16 @@
 .div-general .div-mensaje .p-error {
     margin-top: 1%;
     font-family: 'Neuland';
-    font-size: 60px;
+    font-size: 75px;
     color: #db0450;
     text-align: center;
 }
 
 .div-general .div-mensaje .p-mensaje {
     width: 90%;
-    margin-top: -5%;
+    margin-top: -7%;
     font-family: 'Myriad';
-    font-size: 30px;
+    font-size: 35px;
     color: #db0450;
     text-align: center;
 }
