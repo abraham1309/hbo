@@ -25,6 +25,7 @@
     justify-content: flex-end;
     align-items: center;
     z-index: 1;
+    position: static;
 }
 
 .seccion-general .div-general .div-arriba {
@@ -134,6 +135,7 @@
 .seccion-video {
     width: 100vw;
     height: 100vh;
+    position: static;
 }
 
 .seccion-video .div-general {
@@ -145,6 +147,7 @@
     align-items: center;
     flex-direction: column;
     z-index: 1;
+    position: static;
 }
 
 .seccion-video .div-general .div-titulo {
@@ -154,6 +157,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: static;
 }
 
 .seccion-video .div-general .div-titulo .img-hbo {
@@ -189,6 +193,7 @@
 
 .seccion-video .div-general .div-general-video .div-general-comentarios {
     height: 60vh;
+    position: static;
 }
 
 .seccion-video .div-general .div-general-video .div-general-comentarios .div-comentarios {
@@ -202,6 +207,7 @@
     display: flex;
     justify-content: flex-end;
     flex-direction: column;
+    position: static;
 }
 
 .seccion-video .div-general .div-general-footer .div-footer {
